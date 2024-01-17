@@ -1,0 +1,201 @@
+ :root {
+  --first-color-text: #2e2f42;
+  --second-color-text: #404bbf;
+  --button-colour-text: #f4f4fd;
+  --color-white: white;
+  --iris: #4d5ae5;
+  --color-text: #434455;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;  
+}
+
+.text {
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+.list {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text); 
+  list-style: none;
+}
+
+.list-address {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  list-style: none;
+}
+
+span {
+  color: var(--first-color-text);
+}
+
+.white {
+  color: var(--button-colour-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--iris);
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--second-color-text);
+  color: var(--color-white);
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--iris);
+  cursor: pointer;
+}
+
+.button_p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--button-colour-text);
+  cursor: pointer;
+}
+
+.button_p:focus {
+  color: var(--color-white);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  line-height: 1.6;
+  background-color: var(--color-white);
+}
+
+.a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-text);
+}
+
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: var(--second-color-text);
+}
+
+.nagh_a {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.nagh_b {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text);
+}
+
+.nagh_c {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--first-color-text);
+}
+
+
+.sect_a {
+  background-color: var(--first-color-text);
+}
+
+.sect_b {
+  background-color: #F4F4FD;
+}
+
+.white_background {
+  background-color: var(--color-white);
+}
+
+
+.p_portfolio {
+  font-weight:400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+}
+
+
+.footer-back {
+  background-color: var(--first-color-text);
+}
+
+
+
+/*.logo_footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+li {
+  list-style: none;
+}
+
+.header-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: --first-color-text;
+}
