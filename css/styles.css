@@ -252,6 +252,7 @@ a:hover {
 
 .footer-back {
   background-color: var(--first-color-text);
+  padding: 100px 0;
 }
 
 
