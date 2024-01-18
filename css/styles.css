@@ -18,6 +18,8 @@
 }
 
 .container {
+  display: flex;
+  align-items: center;
   width: 1158px;
   padding: 0 15px;
   margin: o auto;
@@ -27,21 +29,14 @@ img{
   display: block;
 }
 
-/* .nav {
+nav {
   align-items: center;
-  padding: 24px 227px 25px 215px;
-  height: 80px;
-  border: 1px solid #ececec;
-  width: 1440px;
-  height: 72px;
-  flex-direction: column;
-  flex-shrink: 0;
-} */
+}
 
 .nav-logo {
   display: flex;
   justify-content: end;
-  align-items: center;
+  /* align-items: center; */
   width: 1440px;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
