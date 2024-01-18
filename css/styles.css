@@ -84,6 +84,10 @@ margin-bottom: 16px;
 max-width: 264px;
 }
 
+.nag-1{
+  max-width: 496px;
+}
+
 
 
 
@@ -147,6 +151,7 @@ button {
   color: var(--color-white);
   background-color: var(--iris);
   cursor: pointer;
+
 }
 
 button:hover,
@@ -164,6 +169,11 @@ button:focus {
   color: var(--color-white);
   background-color: var(--iris);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button_p {
