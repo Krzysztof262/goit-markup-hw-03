@@ -44,20 +44,24 @@ nav {
 
 .nav-ul{
   display: flex;
+  gap: 40px;
 }
 
 .nav-li{
   display: flex;
-  /* padding-inline: 50px; */
+  gap: 40px;
+  padding: 24px 0
 }
 
 .nav-li-header{
   display: flex;
+  margin-right: 0;
   /* padding-inline-start: 50px; */
 }
 
 .nav-a{
   display: flex;
+  margin-right: 76px;
   /* padding-inline-end: 100px; */
 }
 
