@@ -22,7 +22,7 @@
   align-items: center;
   width: 1158px;
   padding: 0 15px;
-  margin: o auto;
+  margin: 0 auto;
 }
 
 img{
@@ -83,6 +83,12 @@ margin-bottom: 16px;
 .footer-p{
 max-width: 264px;
 }
+
+.footer-back {
+  background-color: var(--first-color-text);
+  padding: 100px 0;
+}
+
 
 
 .logo {
@@ -250,10 +256,6 @@ a:hover {
 }
 
 
-.footer-back {
-  background-color: var(--first-color-text);
-  padding: 100px 0;
-}
 
 
 
