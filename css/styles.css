@@ -32,14 +32,14 @@ img {
   display: block;
 }
 
-nav {
+/* nav {
   align-items: center;
-}
+} */
 
 .nav_logo {
   display: flex;
   justify-content: end;
-  /* align-items: center; */
+  align-items: center;
   width: 1440px;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
@@ -47,6 +47,7 @@ nav {
 
 .nav-ul {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -59,24 +60,20 @@ nav {
 .nav-li-header {
   display: flex;
   margin-right: 0;
-  /* padding-inline-start: 50px; */
 }
 
 .nav_a {
   display: flex;
   margin-right: 76px;
-  /* padding-inline-end: 100px; */
 }
 
-.nav-b {
+/* .nav-b {
   display: flex;
-  /* padding-inline-start: 100px; */
-}
+} */
 
-.nav-c {
+/* .nav-c {
   display: flex;
-  /* padding-inline-start: 50px; */
-}
+} */
 
 .footer_a {
   display: inline-block;
