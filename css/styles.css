@@ -141,6 +141,10 @@ nav {
   text-align: center;
 }
 
+.p_footer {
+  max-width: 264px;
+}
+
 .visually-hidden {
   /* position: absolute; */
   width: 1px;
@@ -230,7 +234,6 @@ span {
   color: var(--button-colour-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
 }
 
 button {
