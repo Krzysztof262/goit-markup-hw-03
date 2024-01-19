@@ -313,6 +313,7 @@ a:hover {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  max-width: 496px;
 }
 
 .nagh_b {
@@ -322,6 +323,7 @@ a:hover {
   letter-spacing: 0.02em;
   color: var(--first-color-text);
   max-width: 496px;
+  margin-bottom: 8px;
 }
 
 .nagh_c {
