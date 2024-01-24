@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   list-style: none;
-  text-decoration: none;
+  /* text-decoration: none; */
   margin: 0;
   padding: 0;
 }
@@ -351,6 +351,7 @@ a:hover {
 .white_background {
   background-color: var(--color-white);
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .p_portfolio {
@@ -365,3 +366,4 @@ a:hover {
   background-color: var(--first-color-text);
   padding: 100px 0;
 }
+/*class="sect_a_2"*/
