@@ -87,12 +87,12 @@ img {
 .nag_1 {
   max-width: 496px;
 }
-.li_sect_a_1 {
+.li_sect_a_one {
   display: flex;
   gap: 24px;
 }
 
-.p_sect_a_1 {
+.p_sect_a_one {
   width: calc((100% - 72px) / 4);
 }
 
@@ -112,7 +112,7 @@ img {
   margin-bottom: 72px;
 }
 
-.img-sect-3 {
+.img-sect-three {
   width: calc((100% - 48px) / 3);
 }
 
