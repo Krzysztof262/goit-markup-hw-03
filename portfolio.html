@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Wzorzec dla klasy visually-hidden */
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -63,7 +76,7 @@
           </ul>
           <ul class="list li_portfolio_img">
             <li>
-              <a class="link a_img" href="">
+              <a class="link" href="">
                 <img
                   src="./images/img-4.jpg"
                   alt="banking"
@@ -194,7 +207,7 @@
     </main>
     <footer class="footer-back">
       <div class="container">
-        <a class="logo link" href="./index.html"
+        <a class="logo link footer_a" href="./index.html"
           >WEB<span class="white">Studio</span>
         </a>
         <p class="white">
