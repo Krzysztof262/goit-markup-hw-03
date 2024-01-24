@@ -150,17 +150,6 @@ img {
   max-width: 264px;
 }
 
-.visually-hidden {
-  /* position: absolute; */
-  width: 1px;
-  /* height: 1px; */
-  /* margin: -1px; */
-  /* padding: 0; */
-  overflow: hidden;
-  /* clip: rect(0, 0, 0, 0);
-  border: 0; */
-}
-
 .sect_portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -374,4 +363,7 @@ a:hover {
   background-color: var(--first-color-text);
   padding: 100px 0;
 }
-/*class="sect_a_2"*/
+
+.li-main {
+  width: calc((100% - 48px) / 3);
+}
