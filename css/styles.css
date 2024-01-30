@@ -27,6 +27,14 @@ border: 0; */
 }
 
 .container {
+  /* display: flex;
+  align-items: center; */
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-header {
   display: flex;
   align-items: center;
   width: 1158px;
@@ -43,11 +51,11 @@ img {
 }
 
 .nav_logo {
-  display: flex;
+  /* display: flex;
   justify-content: end;
   align-items: center;
   width: 1440px;
-  height: 72px;
+  height: 72px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -55,6 +63,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-right: auto;
 }
 
 .nav-li {
@@ -245,6 +254,7 @@ button:focus {
   background-color: var(--iris);
   cursor: pointer;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -299,6 +309,8 @@ a:hover {
   letter-spacing: 0.02em;
   color: var(--color-white);
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .nagh_b {
