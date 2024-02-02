@@ -58,6 +58,12 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
 .nav-ul {
   display: flex;
   align-items: center;
@@ -80,14 +86,6 @@ img {
   display: flex;
   margin-right: 76px;
 }
-
-/* .nav-b {
-  display: flex;
-} */
-
-/* .nav-c {
-  display: flex;
-} */
 
 .footer_a {
   font-family: "Raleway", sans-serif;
@@ -323,7 +321,7 @@ a:hover {
 }
 
 .nagh_c {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -333,12 +331,20 @@ a:hover {
   margin-bottom: 72px;
 }
 
-.sect_a {
+.sect_hero {
   background-color: var(--first-color-text);
   padding: 188px 0;
 }
 
-.sect_b {
+.sect_benefits {
+  padding: 120px 0;
+}
+
+.sect_range {
+  padding-bottom: 120px;
+}
+
+.sect_team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -365,3 +371,5 @@ a:hover {
 .li-main {
   width: calc((100% - 48px) / 3);
 }
+
+/* <a class="a_footer" href=""></a> */
