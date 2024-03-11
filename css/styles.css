@@ -36,6 +36,14 @@
   margin: 0 auto;
 }
 
+.container_portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+
 .header {
   display: flex;
   align-items: center;
@@ -163,14 +171,7 @@ img {
 
 .a_img {
   width: calc((100% - 48px) / 3);
-  text-decoration: none;
-}
-
-.container_portfolio {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
+  /* text-decoration: none; */
 }
 
 .logo {
@@ -198,9 +199,9 @@ img {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em;
   color: var(--first-color-text);
-  list-style: none;
+  list-style: none; */
 }
 
 .list-address {
@@ -316,7 +317,7 @@ a:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-color-text);
-  max-width: 496px;
+  /* max-width: 496px; */
   margin-bottom: 8px;
 }
 
