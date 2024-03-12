@@ -362,6 +362,7 @@ a:hover {
   line-height: 1.5;
   color: var(--color-text);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .footer-back {
